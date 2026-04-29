@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="/imagens/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
 </head>
 
 <body>
@@ -14,46 +14,48 @@
     <div class="clima-card">
         <header>
             <div class="localizacao">
-                <img src="/imagens/localizacao.webp"></i>
-                <span>Limeira, SP</span>
+                <img src="imagens/localizacao.webp" alt="Localização">
+                <span>Carregando...</span>
             </div>
             <h2 class="hora">16:00</h2>
         </header>
 
         <main class="main-info">
             <div>
-                <img class="sol-icon" src="/imagens/sol.webp"></i>
+                <img class="sol-icon" src="imagens/sol.svg" alt="Ícone do tempo">
             </div>
             <div>
-                <h1 class="temperatura">28°</h1>
-                <p class="descricao">Ensolarado</p>
+                <h1 class="temperatura">--°</h1>
+                <p class="descricao">Carregando...</p>
             </div>
         </main>
 
         <footer class="detalhes">
             <div class="detalhes-item">
-                <img src="imagens/vento.webp">
+                <img src="imagens/vento.webp" alt="Vento">
                 <div class="data">
                     <span class="label">Vento</span>
-                    <span class="valor">5 km/h</span>
+                    <span class="valor vento">--</span>
                 </div>
             </div>
             <div class="detalhes-item">
-                <img src="imagens/direcao.webp">
+                <img src="imagens/direcao.webp" alt="Direção">
                 <div class="data">
                     <span class="label">Direção</span>
-                    <span class="valor">Norte</span>
+                    <span class="valor direcao">--</span>
                 </div>
             </div>
             <div class="detalhes-item">
-                <img src="imagens/umidade.webp">
+                <img src="imagens/umidade.webp" alt="Umidade">
                 <div class="data">
                     <span class="label">Umidade</span>
-                    <span class="valor">47%</span>
+                    <span class="valor umidade">--</span>
                 </div>
             </div>
         </footer>
     </div>
+
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
